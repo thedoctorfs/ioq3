@@ -196,6 +196,8 @@ static modelExtToLoaderMap_t modelLoaders[ ] =
 	{ "iqm", R_RegisterIQM },
 	{ "mdr", R_RegisterMDR },
 	{ "md3", R_RegisterMD3 }
+    //TODO: Add new extension here make sure it ends up in bsp
+    // and implement R_SomethingNewModelLoader
 };
 
 static int numModelLoaders = ARRAY_LEN(modelLoaders);
